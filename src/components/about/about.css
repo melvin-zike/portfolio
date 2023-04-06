@@ -1,0 +1,75 @@
+.about {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.about-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+}
+.about-right {
+  flex: 1;
+}
+
+.about-card {
+  width: 60%;
+  height: 70vh;
+  border-radius: 30px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-card.bg {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: #c2a83e;
+}
+
+.about-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-desc {
+  width: 92%;
+}
+
+.about-cert {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-cert-img {
+  width: 120px;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.a-sub {
+  margin: 20px 0px;
+  width: 90%;
+}
+
+.about-cert-text {
+  width: 80%;
+}
+.about-cert-title {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.about-cert-desc {
+  font-weight: 300;
+  width: 92%;
+}
