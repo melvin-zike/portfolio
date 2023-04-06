@@ -1,8 +1,8 @@
 .intro {
   display: flex;
   height: 100vh;
-  background: #000;
-  color: white;
+  background: white;
+  color: black;
 }
 
 .intro-left {
