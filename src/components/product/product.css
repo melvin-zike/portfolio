@@ -46,3 +46,19 @@
   top: 35%;
   width: 80%;
 }
+
+@media screen and (max-width: 480px) {
+  .p {
+    width: 42%;
+    height: 20vh;
+    border-radius: 10px;
+  }
+
+  .img-text {
+    display: none;
+  }
+
+  .p-image {
+    height: 100%;
+  }
+}

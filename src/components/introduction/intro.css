@@ -19,7 +19,7 @@
   height: 50%;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
+  justify-content: space-around;
 }
 
 .intro-text {
@@ -95,4 +95,34 @@
   height: 30px;
   position: absolute;
   bottom: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .intro {
+    flex-direction: column;
+  }
+
+  .intro-left-wrap {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+
+  .intro-title {
+    margin-top: 20px;
+  }
+
+  .intro-title-wrap {
+    text-align: center;
+  }
+
+  .into-desc {
+    display: none;
+  }
+
+  .intro-btn {
+    display: none;
+  }
 }

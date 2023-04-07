@@ -3,9 +3,14 @@ import emailjs from "@emailjs/browser";
 import "./contact.css";
 import phone from "../../img/phone.png";
 
+import { useContext } from "react";
+import { ThemeContext } from "../../context";
+
 const Contact = () => {
   const formRef = useRef();
   const [done, setDone] = useState(false);
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -45,7 +50,13 @@ const Contact = () => {
             </div>
             <div className="contact-info-icon">
               <img src={phone} alt="" className="contact-icon" />
-              31 Taike street, ikosi lagos.
+              31 Taike street, ikosi lagos. 31 Taike street, ikosi lagos.
+            </div>
+            <div className="contact-info-icon">
+              <img src={phone} alt="" className="contact-icon" />
+              <a href="https://www.github.com/melvin-zike" target="_blank">
+                Github
+              </a>
             </div>
           </div>
         </div>
@@ -56,10 +67,42 @@ const Contact = () => {
             layout. The point of using Lorem Ipsum
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
-            <input type="text" placeholder="Name" name="user_name" />
-            <input type="text" placeholder="Email" name="user_subject" />
-            <input type="text" placeholder="Email" name="user_email" />
-            <textarea name="message" placeholder="Message" rows="5" />
+            <input
+              style={{
+                backgroundColor: darkMode && "#333",
+                color: darkMode && "white",
+              }}
+              type="text"
+              placeholder="Name"
+              name="user_name"
+            />
+            <input
+              style={{
+                backgroundColor: darkMode && "#333",
+                color: darkMode && "white",
+              }}
+              type="text"
+              placeholder="Email"
+              name="user_subject"
+            />
+            <input
+              style={{
+                backgroundColor: darkMode && "#333",
+                color: darkMode && "white",
+              }}
+              type="text"
+              placeholder="Email"
+              name="user_email"
+            />
+            <textarea
+              style={{
+                backgroundColor: darkMode && "#333",
+                color: darkMode && "white",
+              }}
+              name="message"
+              placeholder="Message"
+              rows="5"
+            />
             <button>Submit</button>
             {done && "Your message will be delivered shortly"}
           </form>

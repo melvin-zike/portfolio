@@ -73,3 +73,31 @@
   font-weight: 300;
   width: 92%;
 }
+
+@media screen and (max-width: 480px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .about-left {
+    width: 100%;
+  }
+
+  .about-card {
+    height: 30vh;
+  }
+  .about-card.bg,
+  .about-cert {
+    display: none;
+  }
+
+  .about-right {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
