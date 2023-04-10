@@ -16,6 +16,7 @@ function App() {
       style={{
         backgroundColor: darkMode ? "#000" : "white",
         color: darkMode && "white",
+        paddingBottom: "180px",
       }}
     >
       <Intro />
