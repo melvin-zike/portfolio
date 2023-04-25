@@ -1,6 +1,17 @@
 import React from "react";
 import "./intro.css";
 import Me from "../../img/me1.png";
+import {
+  PermMedia,
+  Label,
+  Room,
+  EmojiEmotions,
+  Cancel,
+  GitHub,
+  LinkedIn,
+  Twitter,
+  Instagram,
+} from "@material-ui/icons";
 
 const Intro = () => {
   return (
@@ -23,7 +34,33 @@ const Intro = () => {
           </p>
           <button className="intro-btn">Contact Me</button>
         </div>
-        <svg
+      </div>
+      <div className="intro-right">
+        <div className="intro-bg"></div>
+        <img src={Me} alt="" className="intro-image" />
+        <div className="intro-scroll">
+          <a
+            href="github.com/melvin-zike"
+            target="_blank"
+            className="intro-socials"
+          >
+            <GitHub className="shareIcon" />
+          </a>
+          <a
+            href="linkedin.com/melvinnwaezike"
+            target="_blank"
+            className="intro-socials"
+          >
+            <LinkedIn className="shareIcon" />
+          </a>
+          <a href="twitter.com/mnwaezike" className="intro-socials">
+            <Twitter className="shareIcon" />
+          </a>
+          <a href="#" className="intro-socials">
+            <Instagram className="shareIcon" />
+          </a>
+        </div>
+        {/* <svg
           width="75"
           height="75"
           viewBox="0 0 75 75"
@@ -78,11 +115,7 @@ const Intro = () => {
               />
             </g>
           </g>
-        </svg>
-      </div>
-      <div className="intro-right">
-        <div className="intro-bg"></div>
-        <img src={Me} alt="" className="intro-image" />
+        </svg> */}
       </div>
     </div>
   );

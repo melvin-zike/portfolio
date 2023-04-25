@@ -91,10 +91,24 @@
   right: 0;
 }
 .intro-scroll {
-  width: 30px;
-  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: absolute;
-  bottom: 20px;
+  top: 270px;
+  right: 40px;
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.intro-socials {
+  color: black;
+  margin-top: 20px;
+}
+
+.intro-socials:hover {
+  color: white;
 }
 
 @media screen and (max-width: 480px) {
@@ -124,5 +138,12 @@
 
   .intro-btn {
     display: none;
+  }
+  .intro-scroll {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: 120px;
   }
 }

@@ -1,13 +1,13 @@
 export const fullstack = [
   {
     id: 1,
-    img: "https://cdn.pixabay.com/photo/2018/04/12/21/22/palette-3314838_960_720.jpg",
+    img: "https://justme.mnwaezike.tech/img/portfolio/staffsbu.PNG",
     link: "https://justme.mnwaezike.tech/",
     title: "https://justme.mnwaezike.tech/",
   },
   {
     id: 2,
-    img: "https://cdn.pixabay.com/photo/2016/09/08/22/43/books-1655783_960_720.jpg",
+    img: "https://justme.mnwaezike.tech/img/portfolio/mictokkapp.PNG",
     link: "https://justme.mnwaezike.tech/",
     title: "https://justme.mnwaezike.tech/",
   },
@@ -19,7 +19,7 @@ export const fullstack = [
   },
   {
     id: 4,
-    img: "https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_960_720.jpg",
+    img: "https://justme.mnwaezike.tech/img/portfolio/port2.PNG",
     link: "https://justme.mnwaezike.tech/",
     title: "https://justme.mnwaezike.tech/",
   },
@@ -31,7 +31,7 @@ export const fullstack = [
   },
   {
     id: 6,
-    img: "img/mario.jpg",
+    img: "https://justme.mnwaezike.tech/img/portfolio/port1.PNG",
     link: "https://justme.mnwaezike.tech/",
     title: "https://justme.mnwaezike.tech/",
   },

@@ -82,7 +82,7 @@ const Contact = () => {
                 color: darkMode && "white",
               }}
               type="text"
-              placeholder="Email"
+              placeholder="Subject"
               name="user_subject"
             />
             <input
