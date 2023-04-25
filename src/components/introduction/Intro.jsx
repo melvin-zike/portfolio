@@ -37,7 +37,7 @@ const Intro = () => {
             <GitHub className="shareIcon" />
           </a>
           <a
-            href="https://www.linkedin.com/melvinnwaezike"
+            href="https://www.linkedin.com/in/melvin-nwaezike/"
             target="_blank"
             className="intro-socials"
           >
