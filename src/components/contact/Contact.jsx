@@ -1,7 +1,15 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
-import phone from "../../img/phone.png";
+import {
+  GitHub,
+  LinkedIn,
+  Twitter,
+  Instagram,
+  Room,
+  Email,
+  Phone,
+} from "@material-ui/icons";
 
 import { useContext } from "react";
 import { ThemeContext } from "../../context";
@@ -41,19 +49,19 @@ const Contact = () => {
           <h1 className="contact-title">Lets discuss your project</h1>
           <div className="contact-info">
             <div className="contact-info-icon">
-              <img src={phone} alt="" className="contact-icon" />
+              <Phone className="shareIcon" />
               +234 9115010732
             </div>
             <div className="contact-info-icon">
-              <img src={phone} alt="" className="contact-icon" />
+              <Email className="shareIcon" />
               melvin.nwaezike@gmail.com
             </div>
             <div className="contact-info-icon">
-              <img src={phone} alt="" className="contact-icon" />
+              <Room className="contactIcon" />
               31 Taike street, ikosi lagos. 31 Taike street, ikosi lagos.
             </div>
             <div className="contact-info-icon">
-              <img src={phone} alt="" className="contact-icon" />
+              <GitHub className="contactIcon" />
               <a href="https://www.github.com/melvin-zike" target="_blank">
                 Github
               </a>

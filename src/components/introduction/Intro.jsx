@@ -1,17 +1,7 @@
 import React from "react";
 import "./intro.css";
 import Me from "../../img/me1.png";
-import {
-  PermMedia,
-  Label,
-  Room,
-  EmojiEmotions,
-  Cancel,
-  GitHub,
-  LinkedIn,
-  Twitter,
-  Instagram,
-} from "@material-ui/icons";
+import { GitHub, LinkedIn, Twitter, Instagram } from "@material-ui/icons";
 
 const Intro = () => {
   return (
@@ -40,20 +30,20 @@ const Intro = () => {
         <img src={Me} alt="" className="intro-image" />
         <div className="intro-scroll">
           <a
-            href="github.com/melvin-zike"
+            href="https://www.github.com/melvin-zike"
             target="_blank"
             className="intro-socials"
           >
             <GitHub className="shareIcon" />
           </a>
           <a
-            href="linkedin.com/melvinnwaezike"
+            href="https://www.linkedin.com/melvinnwaezike"
             target="_blank"
             className="intro-socials"
           >
             <LinkedIn className="shareIcon" />
           </a>
-          <a href="twitter.com/mnwaezike" className="intro-socials">
+          <a href="https://www.twitter.com/mnwaezike" className="intro-socials">
             <Twitter className="shareIcon" />
           </a>
           <a href="#" className="intro-socials">
